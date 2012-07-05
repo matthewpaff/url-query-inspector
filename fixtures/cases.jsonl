@@ -1,1 +1,2 @@
 {"expected_error": true, "id": "synthetic-url-0000", "input": "file:///sample/0"}
+{"expected_error": true, "id": "synthetic-url-0001", "input": "https://user:secret@example.com/sample/1"}
