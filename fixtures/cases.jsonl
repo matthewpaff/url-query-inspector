@@ -10,3 +10,4 @@
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/9", "port": 443, "query": {"empty": [""], "q": ["case 9"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0009", "input": "https://example.com/sample/9?tag=python&tag=web&q=case+9&empty=#notes"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/10", "port": 443, "query": {"empty": [""], "q": ["case 10"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0010", "input": "https://example.com/sample/10?tag=python&tag=web&q=case+10&empty=#notes"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/11", "port": 443, "query": {"empty": [""], "q": ["case 11"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0011", "input": "https://example.com/sample/11?tag=python&tag=web&q=case+11&empty=#notes"}
+{"expected_error": true, "id": "synthetic-url-0012", "input": "file:///sample/12"}
