@@ -47,3 +47,4 @@
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/46", "port": 443, "query": {"empty": [""], "q": ["case 46"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0046", "input": "https://example.com/sample/46?tag=python&tag=web&q=case+46&empty=#notes"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/47", "port": 443, "query": {"empty": [""], "q": ["case 47"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0047", "input": "https://example.com/sample/47?tag=python&tag=web&q=case+47&empty=#notes"}
 {"expected_error": true, "id": "synthetic-url-0048", "input": "file:///sample/48"}
+{"expected_error": true, "id": "synthetic-url-0049", "input": "https://user:secret@example.com/sample/49"}
