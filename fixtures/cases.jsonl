@@ -51,3 +51,4 @@
 {"expected_error": true, "id": "synthetic-url-0050", "input": "https://example.com:99999/sample/50"}
 {"expected_error": true, "id": "synthetic-url-0051", "input": "https://example.com/sample/51?tag=python&tag=web&q=case+51&empty=#notes bad space"}
 {"expected_error": true, "id": "synthetic-url-0052", "input": "https://example.com/sample/52?q=%GG"}
+{"expected_error": true, "id": "synthetic-url-0053", "input": "https://example.com/sample/53?q=%FF"}
