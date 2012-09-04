@@ -61,3 +61,4 @@
 {"expected_error": true, "id": "synthetic-url-0060", "input": "file:///sample/60"}
 {"expected_error": true, "id": "synthetic-url-0061", "input": "https://user:secret@example.com/sample/61"}
 {"expected_error": true, "id": "synthetic-url-0062", "input": "https://example.com:99999/sample/62"}
+{"expected_error": true, "id": "synthetic-url-0063", "input": "https://example.com/sample/63?tag=python&tag=web&q=case+63&empty=#notes bad space"}
