@@ -82,3 +82,4 @@
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/81", "port": 443, "query": {"empty": [""], "q": ["case 81"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0081", "input": "https://example.com/sample/81?tag=python&tag=web&q=case+81&empty=#notes"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/82", "port": 443, "query": {"empty": [""], "q": ["case 82"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0082", "input": "https://example.com/sample/82?tag=python&tag=web&q=case+82&empty=#notes"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/83", "port": 443, "query": {"empty": [""], "q": ["case 83"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0083", "input": "https://example.com/sample/83?tag=python&tag=web&q=case+83&empty=#notes"}
+{"expected_error": true, "id": "synthetic-url-0084", "input": "file:///sample/84"}
