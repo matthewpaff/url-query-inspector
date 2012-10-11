@@ -100,3 +100,4 @@
 {"expected_error": true, "id": "synthetic-url-0099", "input": "https://example.com/sample/99?tag=python&tag=web&q=case+99&empty=#notes bad space"}
 {"expected_error": true, "id": "synthetic-url-0100", "input": "https://example.com/sample/100?q=%GG"}
 {"expected_error": true, "id": "synthetic-url-0101", "input": "https://example.com/sample/101?q=%FF"}
+{"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/102", "port": 443, "query": {"empty": [""], "q": ["case 102"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0102", "input": "https://example.com/sample/102?tag=python&tag=web&q=case+102&empty=#notes"}
