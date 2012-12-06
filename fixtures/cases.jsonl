@@ -155,3 +155,4 @@
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/154", "port": 443, "query": {"empty": [""], "q": ["case 154"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0154", "input": "https://example.com/sample/154?tag=python&tag=web&q=case+154&empty=#notes"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/155", "port": 443, "query": {"empty": [""], "q": ["case 155"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0155", "input": "https://example.com/sample/155?tag=python&tag=web&q=case+155&empty=#notes"}
 {"expected_error": true, "id": "synthetic-url-0156", "input": "file:///sample/156"}
+{"expected_error": true, "id": "synthetic-url-0157", "input": "https://user:secret@example.com/sample/157"}
