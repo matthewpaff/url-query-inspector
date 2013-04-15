@@ -233,3 +233,4 @@
 {"expected_error": true, "id": "synthetic-url-0232", "input": "https://example.com/sample/232?q=%GG"}
 {"expected_error": true, "id": "synthetic-url-0233", "input": "https://example.com/sample/233?q=%FF"}
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/234", "port": 443, "query": {"empty": [""], "q": ["case 234"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0234", "input": "https://example.com/sample/234?tag=python&tag=web&q=case+234&empty=#notes"}
+{"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/235", "port": 443, "query": {"empty": [""], "q": ["case 235"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0235", "input": "https://example.com/sample/235?tag=python&tag=web&q=case+235&empty=#notes"}
