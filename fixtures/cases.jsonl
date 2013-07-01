@@ -264,3 +264,4 @@
 {"expected": {"fragment": "notes", "host": "example.com", "path": "/sample/263", "port": 443, "query": {"empty": [""], "q": ["case 263"], "tag": ["python", "web"]}, "scheme": "https"}, "id": "synthetic-url-0263", "input": "https://example.com/sample/263?tag=python&tag=web&q=case+263&empty=#notes"}
 {"expected_error": true, "id": "synthetic-url-0264", "input": "file:///sample/264"}
 {"expected_error": true, "id": "synthetic-url-0265", "input": "https://user:secret@example.com/sample/265"}
+{"expected_error": true, "id": "synthetic-url-0266", "input": "https://example.com:99999/sample/266"}
