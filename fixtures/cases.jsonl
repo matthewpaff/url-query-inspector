@@ -303,3 +303,4 @@
 {"expected_error": true, "id": "synthetic-url-0302", "input": "https://example.com:99999/sample/302"}
 {"expected_error": true, "id": "synthetic-url-0303", "input": "https://example.com/sample/303?tag=python&tag=web&q=case+303&empty=#notes bad space"}
 {"expected_error": true, "id": "synthetic-url-0304", "input": "https://example.com/sample/304?q=%GG"}
+{"expected_error": true, "id": "synthetic-url-0305", "input": "https://example.com/sample/305?q=%FF"}
